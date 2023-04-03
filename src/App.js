@@ -5,6 +5,7 @@ import Slider from "./Components/Slider";
 import LgRgPage from "./Components/LgRgPage";
 
 function App() {
+  console.log("mitesh")
   return (
     <>
       <div className="container main">
