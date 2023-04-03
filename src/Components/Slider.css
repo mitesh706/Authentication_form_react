@@ -1,0 +1,40 @@
+.sliderpage{
+    width: 100%;
+    background-color: #00d0c0;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    height: 100%;
+  }
+
+  .carousel-item{
+    height: 200px;
+  }
+
+  .carousel-item img {
+    height: 80%;
+  }
+
+  .icon{
+    padding: 30px;
+  }
+
+  .icon span{
+    color: #fff;
+    font-size: 30px;
+  }
+
+  .sliderpage .information {
+    margin: 40px 60px 60px 60px;
+    text-align: center;
+  }
+
+  .sliderpage .information p {
+    margin: 0;
+    color: #fff;
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .carousel-indicators{
+    bottom: -40px;
+  }

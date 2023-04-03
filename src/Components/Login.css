@@ -1,0 +1,133 @@
+
+  form{
+    width: 50%;
+  }
+  .loginpage{
+    padding: 20px;
+    background-color: #2b465b;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+  
+  .heading {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .heading p {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    color: #a09595;
+  }
+  
+  .heading span {
+    font-size: 16px;
+    font-weight: 500;
+    color: #a09595;
+  }
+  
+ 
+  
+  .loginpage .detail-box {
+    padding: 30px 15px;
+}
+  .loginpage .detail .email{
+    display: grid;
+  }
+  
+  .loginpage .detail .email {
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  
+  .loginpage .detail .email input{
+    border-bottom: 2px solid #a09595;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #a09595;
+    background-color: transparent;
+  }
+  
+  .loginpage .detail .email input:focus{
+    border-bottom: 2px solid #a09595;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #a09595;
+  }
+  
+  .loginpage .detail .password-box{
+    margin-top: 30px;
+  }
+  
+  .loginpage .detail .password-box .password{
+    display: flex;
+    border-bottom: 2px solid #a09595;
+  }
+  
+  .loginpage .detail .password-box input{
+   box-shadow: none;
+   border: none;
+    color: #a09595;
+    background-color: transparent;
+    padding: 0;
+  }
+  
+  .loginpage .detail .password-box p{
+    padding: 0;
+    margin: 0;
+  }
+  
+  .loginpage .detail .password-box  span {
+    color: #a09595;
+  }
+  
+  .loginpage .detail .term {
+    display: flex;
+    align-items: center;
+    margin: 30px 0px;
+    gap: 10px;
+  }
+  
+  .loginpage .detail .term p {
+    margin: 0;
+    color: #fff;
+  }
+  .loginpage .detail .term input[type=checkbox] {
+    accent-color: #00d0c0 ;
+  }
+  .loginpage .detail .login-content {
+    text-align: center;
+  }
+  
+  .loginpage .detail .login-content .login{
+    padding: 6px 50px;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    background-color: #00d0c0;
+    margin-bottom: 10px;
+  }
+  
+  .loginpage .detail .login-content .logd {
+    border: none;
+    color:#00d0c0 ;
+    background-color: transparent;
+  }
+  
+  .loginpage .detail .login-content p {
+    color: #fff;
+    margin: 0;
+  }
+
+  .err{
+    color: red;
+  }
+  
+  
+  

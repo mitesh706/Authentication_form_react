@@ -1,0 +1,30 @@
+ .button-grp {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .button-grp .btn1 {
+    background-color: #6c7e91;
+    border-top-left-radius:25px;
+    border-bottom-left-radius:25px;
+    border: none;
+    padding: 5px 20px;
+    color: #fff;
+  }
+  
+  .button-grp .btn2 {
+    background-color: #6c7e91;
+    border-top-right-radius:25px;
+    border-bottom-right-radius:25px;
+    border: none;
+    padding: 5px 20px;
+    color: #fff;
+  }
+  
+  .button-grp .btn1:hover{
+    background-color: #00d0c0;
+  }
+ .button-grp .btn2:hover{
+    background-color: #00d0c0;
+  }

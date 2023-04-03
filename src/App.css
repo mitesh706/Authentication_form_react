@@ -1,0 +1,19 @@
+.main {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0px;
+  background-color: #ffb5b5;
+}
+.homepage {
+  display: flex;
+  max-width: 850px;
+  width: 100%;
+}
+
+.slidpage{
+  width: 50%;
+}
+
+.ldrdPage{
+width: 50%;
+}
