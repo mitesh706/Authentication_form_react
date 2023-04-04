@@ -4,12 +4,13 @@ import "./Slider.css";
 import image1 from "./Images/img1.svg";
 import image2 from "./Images/img2.svg";
 import image3 from "./Images/img3.svg";
+import image4 from "./Images/icons8-cup-64 (1).png";
 
 export default function Slider() {
   return (
     <div className="sliderpage">
       <div className="icon">
-        <span className="material-symbols-outlined">photo_frame</span>
+        <img src={image4} alt="" />
       </div>
       <div className="information">
         <p>Plan your activities and control your progress online </p>

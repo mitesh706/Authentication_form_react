@@ -5,8 +5,8 @@ form{
   .Ragisterpage{
     padding: 20px;
     background-color: #2b465b;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
+    border-top-right-radius: 8px;
+    borderBottom-right-radius: 8px;
   }
   
   .heading {
@@ -44,35 +44,23 @@ form{
     font-size: 16px;
     margin-top: 6px;
   }
-  
-  .Ragisterpage .detail .box input{
-    border-bottom: 2px solid #a09595;
-    border-top: none;
-    border-right: none;
-    border-left: none;
-    color: #a09595;
-    background-color: transparent;
-  }
-  
+
   .Ragisterpage .detail .email input:focus{
-    border-bottom: 2px solid #a09595;
+    borderBottom: 2px solid #a09595;
     border-top: none;
     border-right: none;
     border-left: none;
     color: #a09595;
   }
-/*   
-  .Ragisterpage .detail .password-box{
-    margin-top: 10px;
-  } */
-  
+
   .Ragisterpage .detail .password-box .password{
     display: flex;
-    border-bottom: 2px solid #a09595;
+    borderBottom: 2px solid #a09595;
+    height: 25px;
   }
   
   .Ragisterpage .detail .password-box input{
-    border-bottom: none;
+    borderBottom: none;
     border-top: none;
     border-right: none;
     border-left: none;
@@ -121,6 +109,8 @@ form{
     border: none;
     color:#00d0c0 ;
     background-color: transparent;
+    font-weight: 700;
+    letter-spacing: 0.5px;
   }
   
   .Ragisterpage .detail .login-content p {

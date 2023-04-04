@@ -5,8 +5,8 @@
   .loginpage{
     padding: 20px;
     background-color: #2b465b;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
   }
   
   .heading {
@@ -44,39 +44,14 @@
     font-size: 16px;
   }
   
-  .loginpage .detail .email input{
-    border-bottom: 2px solid #a09595;
-    border-top: none;
-    border-right: none;
-    border-left: none;
-    color: #a09595;
-    background-color: transparent;
-  }
-  
-  .loginpage .detail .email input:focus{
-    border-bottom: 2px solid #a09595;
-    border-top: none;
-    border-right: none;
-    border-left: none;
-    color: #a09595;
-  }
-  
   .loginpage .detail .password-box{
-    margin-top: 30px;
+    margin-top: 20px;
   }
   
   .loginpage .detail .password-box .password{
     display: flex;
-    border-bottom: 2px solid #a09595;
   }
   
-  .loginpage .detail .password-box input{
-   box-shadow: none;
-   border: none;
-    color: #a09595;
-    background-color: transparent;
-    padding: 0;
-  }
   
   .loginpage .detail .password-box p{
     padding: 0;
@@ -118,6 +93,8 @@
     border: none;
     color:#00d0c0 ;
     background-color: transparent;
+    font-weight: 700;
+    letter-spacing: 0.5px;
   }
   
   .loginpage .detail .login-content p {

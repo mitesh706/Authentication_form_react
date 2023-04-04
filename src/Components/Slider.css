@@ -1,8 +1,8 @@
 .sliderpage{
     width: 100%;
     background-color: #00d0c0;
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
     height: 100%;
   }
 
@@ -18,9 +18,8 @@
     padding: 30px;
   }
 
-  .icon span{
-    color: #fff;
-    font-size: 30px;
+  .icon img{
+    height: 30px;
   }
 
   .sliderpage .information {

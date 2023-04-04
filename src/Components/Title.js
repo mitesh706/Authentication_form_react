@@ -1,11 +1,11 @@
 import React from 'react';
 
-export default function Title() {
+export default function Title({onLoginPress, onRegisterPress, ...props}) {
   return (
     <div className="heading">
-    <p>Login</p>
+    <p onClick={onLoginPress} style={props.LoStyle}>Login</p>
     <span>or</span>
-    <p>Sign Up</p>
+    <p onClick={onRegisterPress} style={props.RgStyle}>Register</p>
    </div>
   );
 }
